@@ -33,7 +33,7 @@ fg command brings a stopped process or a process that runs in the background to 
 bg command resumes one of the stopped processes in the background. <br />
   
 10.<ins> quit command: </ins> quit [kill] <br />
-quit command exits the smash. If kill argument was specified (which is optional) then smash should kill all of its unfinished and stopped jobs before exiting. <br />
+Quit command exits the smash. If kill argument was specified (which is optional) then smash should kill all of its unfinished and stopped jobs before exiting. <br />
  
  # Enternal Commands
 External command is any command that is not a built-in command or a special command (see special commands bellow ).
@@ -41,7 +41,11 @@ The smash executes the external command and wait until the external command is e
 
 # Special Commands
 1. <ins>Pipes and IO redirection</ins>
-2. <ins>timeout command</ins><br />
+Each typed command could have up to one character of pipe or IO redirection. IO redirection characters which are supported: “>” and “>>”. <br/>
+Pipe characters that are supported: “|” and “|&”.
+2. <ins>timeout command:</ins> timeout <duration> <command><br />
+Sets an alarm for ‘duration’ seconds, and runs the given ‘command’ as though it was given to the smash directly, and when the time is up it shall send a SIGKILL to the given
+command’s process (unless it’s the smash itself).
 
 # Signals Handling
 1.<ins> Ctrl-c:</ins><br />
