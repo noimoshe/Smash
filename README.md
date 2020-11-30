@@ -48,4 +48,5 @@ The smash executes the external command and wait until the external command is e
 Kills the process in foreground. <br />
 2. <ins> Ctrl-z:</ins><br />
 Stops the process in foreground. <br />
-3. 
+3. <ins> alarm signal: </ins><br />
+When receiving a SIG_ALRM search which command caused the alarm, send a SIGKILL to its process.
