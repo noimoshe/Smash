@@ -14,22 +14,22 @@ showpid command prints the smash pid. <br />
 4.<ins> pwd command: </ins>  ped<br />
 pwd prints the full path of the current working directory. <br />
   
-5.<ins>cd command: </ins> cd <new-path> <br />
+5.<ins>cd command: </ins> cd \[new-path\] <br />
 Change directory (cd) command receives a single argument <path> that describes the relative or full path to change current working directory to it. <br />
  
-6.<ins>jobs command: </ins><br />
+6.<ins>jobs command: </ins> jobs<br />
 jobs command prints the jobs list which contains: <br />
 -unfinished jobs (which are running in the background). <br />
 -stopped jobs (which were stopped by pressing Ctrl+Z while they are running). <br />
   
-7.<ins> kill command: </ins> kill -<signum> <job-id>
+7.<ins> kill command: </ins> kill -\[signum\] \[job-id\]
 Kill command sends a signal which its number specified by <signum> to the job which its sequence ID in jobs list is <job-id> (same as job-id in jobs command). and prints a
 message reporting that the specified signal was sent to the specified job. <br />
  
-8.<ins> fg command: </ins>fg <job-id> <br />
+8.<ins> fg command: </ins>fg \[job-id\] <br />
 fg command brings a stopped process or a process that runs in the background to the foreground. <br />
  
-9.<ins> bg command: </ins> bg <job-id> <br />
+9.<ins> bg command: </ins> bg \[job-id\] <br />
 bg command resumes one of the stopped processes in the background. <br />
   
 10.<ins> quit command: </ins> quit [kill] <br />
