@@ -1,5 +1,5 @@
 # Smash
-The following code implements a small bash, handling built-in commands, external and special commands, and also signals handling.
+The following code implements a small bash, handling built-in commands, external and special commands. Also includes signals handling.
 
 # Built-in Commands
 1.<ins> chprompt command: </ins>  chprompt <new-prompt> <br />
