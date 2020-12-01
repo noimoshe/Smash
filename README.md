@@ -2,7 +2,7 @@
 The following code implements a small bash, handling built-in commands, external and special commands. Also includes signals handling.
 
 # Built-in Commands
-1.<ins> chprompt command: </ins>  chprompt <new-prompt> <br />
+1.<ins> chprompt command: </ins>  chprompt \[new-prompt\] <br /> 
 chprompt command will allow the user to change the prompt displayed by the smash while waiting for the next command. <br />
  
 2.<ins>ls command: </ins>  ls<br />
