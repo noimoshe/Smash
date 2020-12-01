@@ -5,13 +5,13 @@ The following code implements a small bash, handling built-in commands, external
 1.<ins> chprompt command: </ins>  chprompt <new-prompt> <br />
 chprompt command will allow the user to change the prompt displayed by the smash while waiting for the next command. <br />
  
-2.<ins>ls command: </ins><br />
+2.<ins>ls command: </ins>  ls<br />
 ls command will allow the user to display the current files and directories. <br />
  
-3.<ins> showpid command: </ins><br />
+3.<ins> showpid command: </ins>  showpid<br />
 showpid command prints the smash pid. <br />
  
-4.<ins> pwd command: </ins><br />
+4.<ins> pwd command: </ins>  ped<br />
 pwd prints the full path of the current working directory. <br />
   
 5.<ins>cd command: </ins> cd <new-path> <br />
