@@ -42,7 +42,7 @@ The smash executes the external command and wait until the external command is e
 # Special Commands
 1.**<ins>Pipes and IO redirection</ins>**
 Each typed command could have up to one character of pipe or IO redirection. IO redirection characters which are supported: “>” and “>>”. <br/>
-Pipe characters that are supported: “|” and “|&”.
+Pipe characters that are supported: “|” and “|&”.<br/>
 2.**<ins>timeout command:</ins>** timeout [duration] [command]<br />
 Sets an alarm for ‘duration’ seconds, and runs the given ‘command’ as though it was given to the smash directly, and when the time is up it shall send a SIGKILL to the given
 command’s process (unless it’s the smash itself).
